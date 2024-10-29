@@ -1,7 +1,16 @@
 # math_utils.py
 
-def add(a, b):
-    """Return the sum of a and b."""
+def add_numbers(a, b):
+    """
+    Returns the sum of two numbers.
+    
+    Parameters:
+    a (int, float): First number.
+    b (int, float): Second number.
+    
+    Returns:
+    int, float: The sum of a and b.
+    """
     return a + b
 
 def subtract(a, b):
